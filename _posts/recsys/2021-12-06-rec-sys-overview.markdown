@@ -2,7 +2,7 @@
 layout: post
 title:  "Recommendation System Overview"
 categories: recsys
-permalink: /:categories/:title.html
+permalink: cl_blog/:categories/:title.html
 ---
 
 The large-scale recommender system mainly consists of two stages: *matching* and *ranking*. Specifically, a *matching stage is expected to retrieve a small fraction of relevant items in low latency and computational cost*, and *a ranking stage aims to refine the ranking of these relevant items in terms of the user’s interest with more complex models* 
