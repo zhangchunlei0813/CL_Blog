@@ -5,7 +5,8 @@ categories: recsys
 permalink: /:categories/:title.html
 ---
 
-The large-scale recommender system mainly consists of two stages: *matching* and *ranking*. Specifically, a *matching stage is expected to retrieve a small fraction of relevant items in low latency and computational cost*, and *a ranking stage aims to refine the ranking of these relevant items in terms of the user’s interest with more complex models* 
+The large-scale recommender system mainly consists of two stages: *matching* and *ranking*. 
+Specifically, a *matching stage is expected to retrieve a small fraction of relevant items in low latency and computational cost*, and *a ranking stage aims to refine the ranking of these relevant items in terms of the user’s interest with more complex models* 
 
 The *matching* stage (also known as the *retrieval* step) identifies a small fraction of relevant items from billion-scale item corpus in low latency and computational cost. *Item-to-item collaborative filtering (item-based CF)* and *embedding based retrieval (EBR)* have been long used in the industrial matching stage owing to its efficiency. However, item-based CF is hard to meet personalization and suffer from data sparsity problem [4], while EBR has difficulty in satisfying diversity. 
 
