@@ -22,7 +22,7 @@ title: CL's Blog
 email: zhangchunlei0813@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Good Good Study & Day Day Up!!! Have Fun :)
-baseurl: "cl_blog" # the subpath of your site, e.g. /blog
+baseurl: "/cl_blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username: zhangchunlei0813
